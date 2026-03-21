@@ -136,10 +136,10 @@
 
         config_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0               &bt BT_SEL 1               &bt BT_SEL 2               &bt BT_SEL 3               &bt BT_SEL 4                 &kp LG(LC(V))      &kp LA(LC(LG(T)))  &kp LS(LG(C))     &kp C_VOLUME_UP    &window_switch_trigger P  &none
-&none       &window_switch_trigger N1  &window_switch_trigger N2  &window_switch_trigger N3  &window_switch_trigger N4  &window_switch_trigger N5    &kp C_MUTE         &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_NEXT                &none
-&none       &window_switch_trigger N6  &window_switch_trigger N7  &window_switch_trigger N8  &window_switch_trigger N9  &window_switch_trigger N0    &kp LA(LS(LC(Q)))  &none              &none             &kp LC(LG(V))      &none                     &kp LG(LC(GRAVE))
-                                                                  &none                      &none                      &none                        &none              &none              &none
+&bt BT_CLR      &bt BT_SEL 0               &bt BT_SEL 1               &bt BT_SEL 2               &bt BT_SEL 3               &bt BT_SEL 4                 &kp LG(LC(V))      &kp LA(LC(LG(T)))  &kp LS(LG(C))     &kp C_VOLUME_UP    &window_switch_trigger P  &none
+&studio_unlock  &window_switch_trigger N1  &window_switch_trigger N2  &window_switch_trigger N3  &window_switch_trigger N4  &window_switch_trigger N5    &kp C_MUTE         &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_NEXT                &none
+&none           &window_switch_trigger N6  &window_switch_trigger N7  &window_switch_trigger N8  &window_switch_trigger N9  &window_switch_trigger N0    &kp LA(LS(LC(Q)))  &none              &none             &kp LC(LG(V))      &none                     &kp LG(LC(GRAVE))
+                                                                      &none                      &none                      &none                        &none              &none              &none
             >;
 
             label = "Config";
