@@ -217,7 +217,7 @@
 &none  &none                          &none                          &none                          &none                          &none                            &kp LG(LC(V))      &kp LA(LC(LG(T)))  &kp LS(LG(C))     &kp C_VOLUME_UP    &window_switch_trigger P  &none
 &none  &window_switch_trigger LC(N1)  &window_switch_trigger LC(N2)  &window_switch_trigger LC(N3)  &window_switch_trigger LC(N4)  &window_switch_trigger LC(N5)    &kp C_MUTE         &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_NEXT                &none
 &none  &window_switch_trigger LC(N6)  &window_switch_trigger LC(N7)  &window_switch_trigger LC(N8)  &window_switch_trigger LC(N9)  &window_switch_trigger LC(N0)    &kp LA(LS(LC(Q)))  &none              &none             &kp LC(LG(V))      &none                     &kp LG(LC(GRAVE))
-                                                                     &none                          &none                          &none                            &none              &none              &bt BT_CLR
+                                                                     &none                          &none                          &none                            &none              &bt BT_CLR         &studio_unlock
             >;
 
             label = "Config";
