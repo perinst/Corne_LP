@@ -18,7 +18,7 @@
 
         capslock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <24 35>;
+            key-positions = <2 1>;
             layers = <0>;
         };
     };
@@ -128,7 +128,7 @@
             display-name = "Movement";
             bindings = <
 &kp F1          &kp F2                &kp F3           &kp F4            &kp F5            &kp F6       &kp F7             &kp F8         &kp F9  &kp F10   &kp F11    &kp F12
-&kp PSCRN       &mo 5                 &kp LA(SPACE)    &kp LALT          &kp HOME          &kp END      &kp INS            &kp LEFT       &kp UP  &kp DOWN  &kp RIGHT  &kp DEL
+&kp PSCRN       &mo 5                 &kp LA(SPACE)    &none             &kp HOME          &kp END      &kp INS            &kp LEFT       &kp UP  &kp DOWN  &kp RIGHT  &kp DEL
 &kp LEFT_SHIFT  &alt_trigger LS(TAB)  &kp LC(LS(TAB))  &kp LC(TAB)       &alt_trigger TAB  &kp LA(Z)    &none              &none          &none   &none     &none      &kp RSHFT
                                                        &kp LEFT_CONTROL  &trans            &to 6        &window_hold_mo 3  &kp RIGHT_GUI  &trans
             >;
@@ -186,6 +186,15 @@
             >;
 
             label = "Movement";
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
