@@ -87,6 +87,16 @@
             key-positions = <22 23>;
             layers = <3 4>;
         };
+
+        esc {
+            bindings = <&panic_esc>;
+            key-positions = <1 2>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
@@ -214,7 +224,7 @@
 
         config_layer {
             bindings = <
-&none           &none                          &none                          &none                          &none                          &none                            &kp LG(LC(V))      &kp LA(LC(LG(T)))  &kp LS(LG(C))     &kp C_VOLUME_UP    &window_switch_trigger P  &none
+&none           &kp LC(NUMBER_1)               &kp LC(NUMBER_2)               &kp LC(NUMBER_3)               &kp LC(NUMBER_4)               &kp LC(N5)                       &kp LG(LC(V))      &kp LA(LC(LG(T)))  &kp LS(LG(C))     &kp C_VOLUME_UP    &window_switch_trigger P  &none
 &none           &window_switch_trigger LC(N1)  &window_switch_trigger LC(N2)  &window_switch_trigger LC(N3)  &window_switch_trigger LC(N4)  &window_switch_trigger LC(N5)    &kp C_MUTE         &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_NEXT                &none
 &kp LEFT_SHIFT  &window_switch_trigger LC(N6)  &window_switch_trigger LC(N7)  &window_switch_trigger LC(N8)  &window_switch_trigger LC(N9)  &window_switch_trigger LC(N0)    &kp LA(LS(LC(Q)))  &none              &none             &kp LC(LG(V))      &none                     &kp RIGHT_SHIFT
                                                                               &none                          &none                          &none                            &none              &bt BT_CLR         &studio_unlock
@@ -235,9 +245,9 @@
 
         cursor_layer {
             bindings = <
-&none  &none  &none      &none      &none      &none    &none  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none
-&none  &none  &mkp MCLK  &mkp RCLK  &mkp LCLK  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-&none  &none  &none      &none      &none      &none    &none  &none           &none         &none           &none            &none
+&none  &none  &none      &none      &none      &none    &none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT  &none
+&none  &none  &mkp MCLK  &mkp RCLK  &mkp LCLK  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&none  &none  &none      &none      &none      &none    &none  &kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT    &none            &none
                          &none      &trans     &none    &none  &none           &none
             >;
 
