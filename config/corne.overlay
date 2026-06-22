@@ -8,7 +8,10 @@
         height = <32>;
         segment-remap;
         com-invdir;
-        com-sequential;
+
+        com-noskip;
+        /delete-property/ com-sequential;
+        
         prechargep = <0x22>;
     };
 };
