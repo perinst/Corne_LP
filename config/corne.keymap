@@ -93,7 +93,7 @@
             key-positions = <1 2>;
         };
 
-        enter_combo {
+        enter_combo_right {
             bindings = <&kp ENTER>;
             key-positions = <19 20 21>;
             layers = <0 1>;
@@ -111,7 +111,7 @@
             layers = <1>;
         };
 
-        enter_combo {
+        enter_combo_left {
             bindings = <&kp ENTER>;
             key-positions = <14 15 16>;
             layers = <0 1>;
