@@ -252,10 +252,10 @@
 
             display-name = "Movement";
             bindings = <
-&kp F1          &kp F2                &kp F3           &kp F4            &kp F5            &kp F6       &kp F7             &kp F8              &kp F9         &kp F10   &kp F11              &kp F12
-&kp PSCRN       &mo 5                 &kp LA(SPACE)    &kp LC(ENTER)     &kp HOME          &kp END      &kp DELETE         &kp LEFT            &kp UP         &kp DOWN  &kp RIGHT            &kp DEL
-&kp LEFT_SHIFT  &alt_trigger LS(TAB)  &kp LC(LS(TAB))  &kp LC(TAB)       &alt_trigger TAB  &kp LA(Z)    &kp F12            &kp LC(LEFT_ARROW)  &kp LC(SPACE)  &none     &kp LC(RIGHT_ARROW)  &kp RSHFT
-                                                       &kp LEFT_CONTROL  &trans            &to 6        &window_hold_mo 3  &kp RIGHT_GUI       &trans
+&kp F1          &kp F2                &kp F3             &kp F4             &kp F5            &kp F6       &kp F7             &kp F8              &kp F9         &kp F10   &kp F11              &kp F12
+&kp PSCRN       &mo 5                 &kp LA(SPACE)      &kp LC(ENTER)      &kp HOME          &kp END      &kp DELETE         &kp LEFT            &kp UP         &kp DOWN  &kp RIGHT            &kp DEL
+&kp LEFT_SHIFT  &alt_trigger LS(TAB)  &kp LC(LS(PG_UP))  &kp LC(PAGE_DOWN)  &alt_trigger TAB  &kp LA(Z)    &kp F12            &kp LC(LEFT_ARROW)  &kp LC(SPACE)  &none     &kp LC(RIGHT_ARROW)  &kp RSHFT
+                                                         &kp LEFT_CONTROL   &trans            &to 6        &window_hold_mo 3  &kp RIGHT_GUI       &trans
             >;
         };
 
