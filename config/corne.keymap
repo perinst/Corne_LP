@@ -99,8 +99,8 @@
             layers = <0 1>;
         };
 
-        plus_combo {
-            bindings = <&kp PLUS>;
+        caret_combo {
+            bindings = <&kp CARET>;
             key-positions = <28 27>;
             layers = <1>;
         };
@@ -236,10 +236,10 @@
 
             display-name = "Symbols";
             bindings = <
-&trans     &kp N1           &kp N2       &kp N3     &kp N4             &kp N5          &kp N6     &kp N7         &kp N8            &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp TAB          &kp PERCENT  &kp TILDE  &kp UNDER          &kp ASTERISK    &kp MINUS  &kp EQUAL      &kp SINGLE_QUOTE  &kp DQT  &trans    &kp SQT
-&kp LSHFT  &kp EXCLAMATION  &kp HASH     &kp PIPE   &kp AMPERSAND      &kp AT_SIGN     &kp BSLH   &kp GRAVE      &kp COMMA         &kp DOT  &kp FSLH  &kp RSHFT
-                                         &kp LCTRL  &window_hold_mo 3  &kp SPACE       &trans     &kp BACKSPACE  &trans
+&trans     &kp N1           &kp N2       &kp N3     &kp N4             &kp N5         &kp N6     &kp N7         &kp N8            &kp N9   &kp N0    &kp BSPC
+&kp TAB    &kp TAB          &kp PERCENT  &kp TILDE  &kp UNDER          &kp PLUS       &kp MINUS  &kp EQUAL      &kp SINGLE_QUOTE  &kp DQT  &trans    &kp SQT
+&kp LSHFT  &kp EXCLAMATION  &kp HASH     &kp PIPE   &kp AMPERSAND      &kp AT_SIGN    &kp BSLH   &kp GRAVE      &kp COMMA         &kp DOT  &kp FSLH  &kp RSHFT
+                                         &kp LCTRL  &window_hold_mo 3  &kp SPACE      &trans     &kp BACKSPACE  &trans
             >;
         };
 
